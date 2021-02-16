@@ -1,4 +1,4 @@
-const PlayerController = require('../controllers/Player.controller');
+const PlayerController = require('../controllers/player.controller');
 module.exports = function(app){
     app.post('/api/createNewPlayer', PlayerController.createPlayer);
     app.get('/api/getAllPlayers', PlayerController.findAllPlayers);
