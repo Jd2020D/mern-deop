@@ -1,4 +1,4 @@
-const { Player } = require('../models/Player.model');
+const { Player } = require('../models/player.model');
 
 module.exports.createPlayer = (request, response) => {
     Player.create(request.body)
